@@ -15,6 +15,16 @@ Los préstamos se guardan en un diccionario llamado `prestamos`.
 
 Las claves son los nombres de los lectores y los valores son listas con los libros prestados.
 
+## Estructura del proyecto
+
+```bash
+gestion_biblioteca/
+│
+├── gestion_biblioteca.py
+├── README.md
+└── CONTRIBUTORS.md
+```
+
 ## Control de errores
 
 El programa usa excepciones personalizadas:
@@ -30,3 +40,4 @@ Para ejecutar el programa:
 
 ```bash
 python gestion_biblioteca.py
+```
